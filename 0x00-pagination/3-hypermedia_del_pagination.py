@@ -55,7 +55,7 @@ class Server:
             if data_count == page_size:
                 next_index = i
                 break
-        page_informatiion = {
+        page_information = {
             'index': index,
             'next_index': next_index,
             'page_size': len(page_data),
